@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 app.get("/stocks", (req, res) => {
-  console.log("Get all restaurants");
+  console.log("Get all stocks!");
 })
 
 // Use env variable, else use PORT 3002 //
